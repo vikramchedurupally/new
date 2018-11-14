@@ -8,6 +8,9 @@
         <mkdir dir="build/classes"/>
         <javac srcdir="C:\Program Files (x86)\Jenkins\workspace\nex" destdir="build/classes"/>
     </target>
+    <presetdef name="javac">
+        <javac includeantruntime="false" />
+    </presetdef>
 
     <target name="jar">
         <mkdir dir="build/jar"/>
